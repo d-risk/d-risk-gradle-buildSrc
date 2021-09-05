@@ -55,6 +55,7 @@ fun DependencyHandler.auth0(version: String = AUTH0) = "com.auth0:auth0:$version
 fun DependencyHandler.`awssdk-bom`(version: String = AWSSDK) = "software.amazon.awssdk:bom:$version"
 val DependencyHandler.`awssdk-dynamodb` get() = "software.amazon.awssdk:dynamodb"
 val DependencyHandler.`awssdk-lambda` get() = "software.amazon.awssdk:lambda"
+val DependencyHandler.`awssdk-ssm` get() = "software.amazon.awssdk:ssm"
 fun DependencyHandler.`aws-java-sdk-bom`(version: String = AWS_JAVA_SDK) = "com.amazonaws:aws-java-sdk-bom:$version"
 val DependencyHandler.`aws-java-sdk-dynamodb` get() = "com.amazonaws:aws-java-sdk-dynamodb"
 val DependencyHandler.`aws-java-sdk-ecs` get() = "com.amazonaws:aws-java-sdk-ecs"
