@@ -121,6 +121,7 @@ fun DependencyHandler.`log4j-bom`(version: String = LOG4J) = "org.apache.logging
 val DependencyHandler.`log4j-core` get() = "org.apache.logging.log4j:log4j-core"
 val DependencyHandler.`log4j-jcl` get() = "org.apache.logging.log4j:log4j-jcl"
 val DependencyHandler.`log4j-slf4j-impl` get() = "org.apache.logging.log4j:log4j-slf4j-impl"
+val DependencyHandler.`log4j-slf4j18-impl` get() = "org.apache.logging.log4j:log4j-slf4j18-impl"
 fun DependencyHandler.lombok(version: String = LOMBOK) = "org.projectlombok:lombok:$version"
 fun DependencyHandler.`mockito-core`(version: String = MOCKITO) = "org.mockito:mockito-core:$version"
 fun DependencyHandler.`mockito-junit-jupiter`(version: String = MOCKITO) = "org.mockito:mockito-junit-jupiter:$version"
