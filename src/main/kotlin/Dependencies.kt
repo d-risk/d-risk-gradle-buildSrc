@@ -17,6 +17,7 @@ import Versions.GRAPHQL_JAVA
 import Versions.GRAPHQL_JAVA_SPRING_BOOT_STARTER_WEBFLUX
 import Versions.GRAPHQL_JAVA_TOOLS
 import Versions.GRAPHQL_SPRING_BOOT_STARTER
+import Versions.GSON
 import Versions.GUICE
 import Versions.HTTPCORE
 import Versions.JACKSON
@@ -72,6 +73,7 @@ fun DependencyHandler.`graphql-java`(version: String = GRAPHQL_JAVA) = "com.grap
 fun DependencyHandler.`graphql-java-spring-boot-starter-webflux`(version: String = GRAPHQL_JAVA_SPRING_BOOT_STARTER_WEBFLUX) = "com.graphql-java:graphql-java-spring-boot-starter-webflux:$version"
 fun DependencyHandler.`graphql-java-tools`(version: String = GRAPHQL_JAVA_TOOLS) = "com.graphql-java:graphql-java-tools:$version"
 fun DependencyHandler.`graphql-spring-boot-starter`(version: String = GRAPHQL_SPRING_BOOT_STARTER) = "com.graphql-java:graphql-spring-boot-starter:$version"
+fun DependencyHandler.gson(version: String = GSON) = "com.google.code.gson:gson:$version"
 val DependencyHandler.guice get() = "com.google.inject:guice"
 val DependencyHandler.`guice-assistedinject` get() = "com.google.inject.extensions:guice-assistedinject"
 fun DependencyHandler.`guice-bom`(version: String = GUICE) = "com.google.inject:guice-bom:$version"
