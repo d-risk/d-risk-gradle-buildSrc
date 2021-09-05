@@ -1,0 +1,12 @@
+# Gradle
+.gradle/
+build/
+gradle/
+gradlew
+gradlew.bat
+
+# IntelliJ
+.idea/
+
+# Visual Studio Code
+.vscode/
