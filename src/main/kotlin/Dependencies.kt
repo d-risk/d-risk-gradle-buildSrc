@@ -81,6 +81,7 @@ fun DependencyHandler.`guice-bom`(version: String = GUICE) = "com.google.inject:
 fun DependencyHandler.httpcore(version: String = HTTPCORE) = "org.apache.httpcomponents:httpcore:$version"
 fun DependencyHandler.`jackson-bom`(version: String = JACKSON) = "com.fasterxml.jackson:jackson-bom:$version"
 val DependencyHandler.`jackson-databind` get() = "com.fasterxml.jackson.core:jackson-databind"
+val DependencyHandler.`jackson-dataformat-ion` get() = "com.fasterxml.jackson.dataformat:jackson-dataformat-ion"
 val DependencyHandler.`jackson-dataformat-yaml` get() = "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml"
 val DependencyHandler.`jackson-module-kotlin` get() = "com.fasterxml.jackson.module:jackson-module-kotlin"
 fun DependencyHandler.`javafx-base`(version: String = JAVAFX) = "org.openjfx:javafx-base:$version"
