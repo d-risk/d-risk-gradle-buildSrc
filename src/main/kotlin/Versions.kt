@@ -31,6 +31,7 @@ internal object Versions {
     val JAVA = JavaVersion.VERSION_11
     const val JAVAFX = "11.0.1"
     const val JAVAX_INJECT = "1"
+    const val JAXB = "2.3.1"
     const val JMOCKIT = "1.43"
     const val JSCH = "0.1.55"
     const val JUNIT = "4.12"

@@ -22,6 +22,7 @@ import Versions.HTTPCORE
 import Versions.JACKSON
 import Versions.JAVAFX
 import Versions.JAVAX_INJECT
+import Versions.JAXB
 import Versions.JMOCKIT
 import Versions.JUNIT
 import Versions.JUNIT5
@@ -87,6 +88,7 @@ fun DependencyHandler.`javafx-media`(version: String = JAVAFX) = "org.openjfx:ja
 fun DependencyHandler.`javafx-swing`(version: String = JAVAFX) = "org.openjfx:javafx-swing:$version"
 fun DependencyHandler.`javafx-web`(version: String = JAVAFX) = "org.openjfx:javafx-web:$version"
 fun DependencyHandler.`javax-inject`(version: String = JAVAX_INJECT) = "javax.inject:javax.inject:$version"
+fun DependencyHandler.`jaxb-api`(version: String = JAXB) = "javax.xml.bind:jaxb-api:$version"
 fun DependencyHandler.jmockit(version: String = JMOCKIT) = "org.jmockit:jmockit:$version"
 fun DependencyHandler.junit(version: String = JUNIT) = "junit:junit:$version"
 fun DependencyHandler.`junit-bom`(version: String = JUNIT5) = "org.junit:junit-bom:$version"
