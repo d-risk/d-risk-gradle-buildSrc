@@ -53,7 +53,7 @@ internal object Versions {
     const val PICOCLI = "4.2.0"
     const val RXJAVA = "2.2.4"
     const val SHADOW_JAR = "7.0.0"
-    const val SHIPKIT = "2.2.5"
+    const val SHIPKIT = "2.3.1"
     const val SLF4J_API = "1.7.25"
     const val SPRING = "5.3.9"
     const val SPRING_BOOT = "2.2.6.RELEASE"
