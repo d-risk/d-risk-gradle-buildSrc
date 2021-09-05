@@ -5,6 +5,7 @@ import org.gradle.api.JavaVersion
 internal object Versions {
     const val AMAZON_QLDB_DRIVER = "2.0.0"
     const val ASSERTJ = "3.20.2"
+    const val AUTH0 = "1.22.0"
     const val AWSSDK = "2.17.9"
     const val AWS_JAVA_SDK = "1.12.37"
     const val AWS_LAMBDA_CORE = "1.2.1"

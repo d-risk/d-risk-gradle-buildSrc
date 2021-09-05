@@ -2,6 +2,7 @@
 
 import Versions.AMAZON_QLDB_DRIVER
 import Versions.ASSERTJ
+import Versions.AUTH0
 import Versions.AWSSDK
 import Versions.AWS_JAVA_SDK
 import Versions.AWS_LAMBDA_CORE
@@ -48,6 +49,7 @@ import org.gradle.api.artifacts.dsl.DependencyHandler
 
 fun DependencyHandler.`amazon-qldb-driver-java`(version: String = AMAZON_QLDB_DRIVER) = "software.amazon.qldb:amazon-qldb-driver-java:$version"
 fun DependencyHandler.`assertj-core`(version: String = ASSERTJ) = "org.assertj:assertj-core:$version"
+fun DependencyHandler.auth0(version: String = AUTH0) = "com.auth0:auth0:$version"
 fun DependencyHandler.`awssdk-bom`(version: String = AWSSDK) = "software.amazon.awssdk:bom:$version"
 val DependencyHandler.`awssdk-dynamodb` get() = "software.amazon.awssdk:dynamodb"
 val DependencyHandler.`awssdk-lambda` get() = "software.amazon.awssdk:lambda"
