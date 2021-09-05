@@ -58,7 +58,7 @@ internal object Versions {
     const val SPRING = "5.3.9"
     const val SPRING_BOOT = "2.2.6.RELEASE"
     const val SPRING_DEPENDENCY_MANAGEMENT = "1.0.6.RELEASE"
-    const val STRIPE_JAVA = "7.0.0"
+    const val STRIPE_JAVA = "20.14.0"
     const val TRUTH = "0.42"
     const val VALIDATION_API = "2.0.1.Final"
 }
