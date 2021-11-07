@@ -45,7 +45,7 @@ internal object Versions {
     const val LOMBOK = "1.18.4"
     const val MOCKITO = "3.0.0"
     const val MOCKK = "1.12.0"
-    const val MOCK_FTP_SERVER = "2.7.1"
+    const val MOCK_FTP_SERVER = "2.8.0"
     const val NEBULA_PUBLISH = "9.4.5"
     const val NEBULA_RELEASE = "9.2.0"
     const val OK_HTTP = "4.2.2"
