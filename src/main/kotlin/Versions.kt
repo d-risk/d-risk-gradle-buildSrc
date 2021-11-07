@@ -50,7 +50,7 @@ internal object Versions {
     const val NEBULA_RELEASE = "9.2.0"
     const val OK_HTTP = "4.2.2"
     const val ORG_ECLIPSE_JDT_ANNOTATION = "2.2.100"
-    const val PICOCLI = "4.2.0"
+    const val PICOCLI = "4.6.1"
     const val RXJAVA = "2.2.4"
     const val SHADOW_JAR = "7.0.0"
     const val SHIPKIT = "2.3.1"
