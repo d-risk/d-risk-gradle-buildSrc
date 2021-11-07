@@ -25,6 +25,7 @@ import Versions.JAVAFX
 import Versions.JAVAX_INJECT
 import Versions.JAXB
 import Versions.JMOCKIT
+import Versions.JSCH
 import Versions.JUNIT
 import Versions.JUNIT5
 import Versions.KODEIN_DI_GENEREIC_JVM
@@ -94,6 +95,7 @@ fun DependencyHandler.`javafx-web`(version: String = JAVAFX) = "org.openjfx:java
 fun DependencyHandler.`javax-inject`(version: String = JAVAX_INJECT) = "javax.inject:javax.inject:$version"
 fun DependencyHandler.`jaxb-api`(version: String = JAXB) = "javax.xml.bind:jaxb-api:$version"
 fun DependencyHandler.jmockit(version: String = JMOCKIT) = "org.jmockit:jmockit:$version"
+fun DependencyHandler.jsch(version: String = JSCH) = "com.jcraft:jsch:$version"
 fun DependencyHandler.junit(version: String = JUNIT) = "junit:junit:$version"
 fun DependencyHandler.`junit-bom`(version: String = JUNIT5) = "org.junit:junit-bom:$version"
 val DependencyHandler.`junit-jupiter-api` get() = "org.junit.jupiter:junit-jupiter-api"
